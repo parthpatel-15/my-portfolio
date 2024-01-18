@@ -1,0 +1,155 @@
+/* skills.css */
+
+/* -----------------------------tools------------------------------------- */
+.tools-container {
+    background-image: url('../imgs/home_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: #fff;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
+    min-height: 600px;
+   
+}
+
+ .tools-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+} 
+
+/* ----------------------------- arrow ------------------------------------- */
+.scroll-down-arrow {
+    
+    height: 8%;
+    width: 6%;
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.5;
+    
+    background: url('../imgs/down-arrow.png') no-repeat;
+    background-size: contain; /* Ensure the entire image fits within the div */
+    /* transform: rotate(-90deg); Rotate the image 90 degrees counter-clockwise */
+   
+}
+  
+  .scroll-down-arrow:hover {
+    
+    opacity: 1;
+  }
+
+
+
+/* -----------------------------for libs and framework ------------------------------------- */
+.libs-container {
+   background-color:#393b40;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    color: #fff;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    height: 70vh; 
+    min-height:500px;
+   
+}
+
+ .libs-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+} 
+
+/* ---------------------------- for other skills -------------------------------------- */
+
+.skills-container {
+     background-image: url('../imgs/skills-background-1.JPG');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+     color: #fff;
+     text-align: center;
+     margin: 0; 
+     padding: 0; 
+     height: 70vh; 
+     min-height: 500px;
+    
+ }
+ 
+  .skills-wrapper {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     
+ } 
+ 
+
+/* ------------------------------------------------------------------ */
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+    max-width: 45rem;
+    
+}
+
+.tool-box {
+    display:flex;
+    background-color: rgba(22, 22, 22, 0.713);
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    font-weight: 700;
+    height: 3.75rem;
+    min-width: 8rem;
+    border-radius: 8px;  
+}
+
+.tool-box img {
+    filter: grayscale(1);
+    vertical-align: middle; 
+    transition: filter 0.7s ease;
+}
+
+.tool-box:hover img {
+    filter: none;
+    cursor: pointer;
+}
+
+.tool-box:hover {
+    background-color: black;
+    transform: scale(1.08);
+}
+
+.name{
+    color: #e3dddf;
+    font-family: Lato, sans-serif;
+    vertical-align: middle;
+}
+
+h2{
+    padding-top: 100px;
+}
+
+
+

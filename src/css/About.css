@@ -1,0 +1,40 @@
+.about {
+    background:  linear-gradient(0deg, rgb(18, 36, 56) 30%, rgb(13, 27, 42) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    height: 100vh;
+    min-height: 900px;
+}
+
+/* .fullsize-div-about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+} */
+
+#aboutH{
+    font-size: 2.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration:overline;
+    text-shadow: 1px;
+
+}
+
+#AboutP{
+    color: #BAB3B6;
+    font-family : Lato, sans-serif;
+    font-style: italic;
+    opacity: 1;
+    line-height: 30px;
+    /* Bradley Hand, cursive */
+    font-size: 1.4vw; /* Adjust the font size using viewport width units */
+    margin: 2vh 10vw; 
+  }

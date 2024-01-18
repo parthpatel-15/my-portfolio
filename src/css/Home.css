@@ -1,0 +1,65 @@
+/* Home.css */
+
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+html, body {
+    height: 100vh; /* Ensure the body and HTML element occupy the full viewport height */
+}
+
+.home {
+    background-image: url('../imgs/home_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    /* min-height: 800px; */
+    overflow-y: auto;
+}
+
+
+
+.fullsize-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+.content-container {
+    text-align: center;
+    margin: 0;
+    min-width: 100%;
+}
+
+#name {
+    color: #fffcfc;
+    vertical-align: middle;
+    border-bottom-style :groove;
+    padding-bottom: 30px;
+    margin-bottom: 0%;
+    text-align: center;
+    font-style: italic;
+    font-family:  'Stencil Std', fantasy ;
+    font-variant: initial;
+    font-size: 8vh;
+    width: 100%; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    margin: 2px 40px;
+}

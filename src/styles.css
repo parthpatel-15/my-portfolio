@@ -1,0 +1,121 @@
+/* styles.css */
+
+  
+  /* Style the menu list */
+  .menu {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items horizontally */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+/* Style the menu container */
+.menu-container {
+    background-color: #3131318f;
+    height: 40px;
+    position: fixed; /* Set the menu container to be sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Add a z-index for layering */
+    width: 100%; /* Make it full-width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Style the menu list */
+  .menu {
+    list-style-type: none;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Display items horizontally */
+    /* justify-content: right; Center items horizontally */
+    align-items: center;
+  }
+  
+  /* Style each menu item */
+  .menu li {
+    margin: 0px 10px; /* Add some spacing between items */
+    position: relative; /* Create a stacking context for hover effects */
+    
+  }
+  
+  /* Style menu links */
+  .menu li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #969ba4; /* Text color */
+    font-family:sans-serif ;
+    height: auto;
+    transition: color 0.3s; /* Smooth color transition on hover */
+    padding: 11px 10px;
+    margin: 0px 5px;
+  }
+  
+  /* Change link color on hover */
+  .menu li a:hover {
+    color: #fefdfd; /* Change to a different color on hover */
+  }
+  
+  /* Add an underline effect on hover */
+  .menu li a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: rgb(232, 243, 73);
+    transform: scaleX(0); /* Start with no width */
+    transform-origin: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .menu li a:hover::before {
+    transform: scaleX(1); /* Expand the underline on hover */
+  }
+
+  .menu > .myLogo {
+    justify-content: none;
+
+  }
+
+  .menu li a{
+
+        background:
+        conic-gradient(from -45deg at 50% calc(5*100%/6),#ffffff00 90deg, #464646  0) calc(0*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(5*100%/6),#464646 90deg, #ffffff00 0) calc(0*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(4*100%/6),#ffffff00 90deg, #464646  0) calc(1*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(4*100%/6),#464646 90deg, #ffffff00 0) calc(1*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(3*100%/6),#ffffff00 90deg, #464646  0) calc(2*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(3*100%/6),#464646 90deg, #ffffff00 0) calc(2*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(2*100%/6),#ffffff00 90deg, #464646  0) calc(3*100%/3) var(--_d, 100%),
+        conic-gradient(from -45deg at 50% calc(2*100%/6),#464646 90deg, #ffffff00 0) calc(3*100%/3) var(--_d, 100%);
+          -webkit-background-clip: text, padding-box;
+                  background-clip: text, padding-box;
+          background-size: calc(100%/4) 600%;
+          background-repeat: no-repeat;
+          transition: 1.5s linear;
+        }
+
+  .menu li a:hover {
+
+    --_d: 0%;
+
+    }
+
+  .menu li a:focus-visible {
+
+    --_d: 0%;
+
+    }
+
+  .menu-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  
+  
+  /* Apply the hover effect */
+  .menu-item:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
