@@ -77,7 +77,7 @@ function Skills() {
             {/* all other skills which i know */}
             <div className='skills-container'>
                 <div className="skills-wrapper">
-                  <h2 style={{ paddingBottom: '30px', margin:'0' }}> Other Skills </h2>
+                  <h2 style={{ paddingBottom: '30px', margin:'0' }}> Competence </h2>
 
                   <div style = {{maxWidth: '45rem' }} className='tools'>
                     {otherSkills.map((librarie, index) => (

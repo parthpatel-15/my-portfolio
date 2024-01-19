@@ -69,9 +69,9 @@ function Projects() {
                         items={items}
                         itemWidth={
                             windowWidth <= 960
-                                ? windowWidth <= 600
+                                ? windowWidth <= 500
                                     ? 280
-                                    : 500
+                                    : 400
                                 : 900
                         }
                     />

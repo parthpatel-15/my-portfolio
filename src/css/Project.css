@@ -22,8 +22,9 @@ h2:hover {
 }
 
 .ProjectsContainer {
+    overflow: hidden;
     position: relative;
-    display: flex; /* Use display: flex; to create a flex container */
+    display: flex;   /*  Use display: flex; to create a flex container */
     flex-direction: column;
     align-items: center; /* Center children horizontally */
     justify-content: center; 
@@ -82,13 +83,23 @@ h2{
     position: absolute;
     bottom: 2%;
     right: 2%;
-    width: 20%;
+    width: 10%;
     display: flex;
     flex-direction: column;  /* Stack items vertically */
     align-items: flex-end;   /* Align items to the right */
    
  
 }
+@media screen and (max-width: 600px) {
+    .githubContainer{
+        width: 25%;
+    }
+    .githubContainer img{
+        width: 40px;
+
+    }
+}
+
 
 .githubContainer a {
     display: flex;
