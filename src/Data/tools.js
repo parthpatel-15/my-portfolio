@@ -4,6 +4,10 @@ const tools = [
         src: "https://cdn.jsdelivr.net/npm/@programming-languages-logos/python@0.0.0/python.svg",
     },
     {
+        name: "Java",
+        src: "https://www.svgrepo.com/show/184143/java.svg",
+    },
+    {
         name: "C++",
         src: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
     },
@@ -21,24 +25,16 @@ const tools = [
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
     {
+        name: "TypeScript",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    },
+    {
         name: "Node",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     },
     {
-        name: "MongoDB",
-        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    },
-    {
         name: "GitHub",
         src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-    },
-    {
-        name: "Java",
-        src: "https://www.svgrepo.com/show/184143/java.svg",
-    },
-    {
-        name: "Power BI",
-        src: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
     },
     {
         name: "AWS",
@@ -53,6 +49,10 @@ const tools = [
         src: "https://cdn.worldvectorlogo.com/logos/hadoop.svg",    
     },
     {
+        name: "Power BI",
+        src: "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
+    },
+    {
         name: "Excel",
         src: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019–present%29.svg",      
     },
@@ -61,12 +61,12 @@ const tools = [
         src: "https://cdn.worldvectorlogo.com/logos/android-studio-1.svg", 
     },
     {
-        name: "SQL",
-        src: "https://upload.wikimedia.org/wikipedia/fr/6/68/Oracle_SQL_Developer_logo.svg",  
+        name: "MongoDB",
+        src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     },
     {
-        name: "Azure",
-        src: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg", 
+        name: "SQL",
+        src: "https://upload.wikimedia.org/wikipedia/fr/6/68/Oracle_SQL_Developer_logo.svg",  
     },
     {
         name: "My SQL",

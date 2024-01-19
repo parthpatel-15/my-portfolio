@@ -76,18 +76,7 @@ function Projects() {
                         }
                     />
 
-                    <div className="githubContainer">
-                            <a
-                                href="https://github.com/parthpatel-15"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="githubLink"
-                            >
-                                <button className="githubButton">
-                                    My Other Projects
-                                </button>
-                            </a>
-                    </div>
+                   
                 </div>
                 {isModalOpen && (
                 <Modal
@@ -96,6 +85,33 @@ function Projects() {
                     closeModal={handleCloseModal}
                 />
             )}
+
+                    <div className="githubContainer">
+
+                            <a 
+                                href="https://github.com/parthpatel-15" 
+                                target="https://github.com/parthpatel-15"
+                                //rel="noopener noreferrer"
+                                >
+                                    <img
+                                        // className="githubIcon"
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                        alt=""
+                                        width={60}
+                                    />
+                                    Other Projects
+                            </a>
+                            {/* <a
+                                href="https://github.com/parthpatel-15"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="githubLink"
+                            >
+                                <button className="githubButton">
+                                    My Other Projects
+                                </button>
+                            </a> */}
+                    </div>
         </div>
     );
 }

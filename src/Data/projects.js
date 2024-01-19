@@ -32,10 +32,10 @@ const  projects = [
         shortDesc: "This is a simple pomodoro timer app that helps you stay focused and productive.",
     },
     {
-        title: 'Movie ticket Booking App',    
+        title: 'Opera World - Book Your Ticket',    
         img: 'https://raw.githubusercontent.com/parthpatel-15/data/9b250bff48bf704fe9a4494b2deeddd354484d03/AND-1.1.jpg',
-        description: "This is a fully functional ToDo web application built with React, based on a Figma design provided as a challenge from RocketSeat. With this app, you can create new tasks, delete them, and mark them as completed. The app features an intuitive and easy-to-use interface that makes managing your to-do list a breeze. It's designed to help you stay organized and focused, whether you're a student, professional, or anyone who wants to stay on top of their tasks.",
-        shortDesc: "This is a fully functional ToDo web application.",
+        description: "In my movie ticket booking Android app, I've designed a streamlined process with distinct pages for an effortless user experience. Starting with a captivating home page featuring a logo, users can smoothly navigate through movie selection, show timings, ticket quantity, and billing. Notably, the app integrates Google Maps API to display nearby theaters in Toronto downtown, allowing users to select their preferred venue seamlessly. Developed in Java, this app is a testament to my commitment to creating intuitive and efficient Android applications.",
+        shortDesc: "This is a fully functional Movie Ticket Booking App application.",
     },
 ]
 

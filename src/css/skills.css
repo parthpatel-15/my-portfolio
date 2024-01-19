@@ -34,7 +34,7 @@
     right: 10px;
     font-size: 24px;
     cursor: pointer;
-    opacity: 0.5;
+    opacity: 0.8;
     
     background: url('../imgs/down-arrow.png') no-repeat;
     background-size: contain; /* Ensure the entire image fits within the div */
@@ -76,7 +76,7 @@
 /* ---------------------------- for other skills -------------------------------------- */
 
 .skills-container {
-     background-image: url('../imgs/skills-background-1.JPG');
+     background-image: url('../imgs/home_1.jpg');
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed; 
@@ -86,6 +86,7 @@
      padding: 0; 
      height: 70vh; 
      min-height: 500px;
+     /* filter: brightness(0.7); */
     
  }
  
