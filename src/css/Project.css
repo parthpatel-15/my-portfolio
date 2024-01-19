@@ -55,7 +55,7 @@ h2:hover {
     height: 20rem;
     text-align: center;
     background-size: cover;
-    background-image: url('/Users/sambhu/Desktop/my-portfolio/src/imgs/home_1.jpg'); /* Replace with the actual image path */
+    background-image: url('../imgs/home_1.jpg'); 
     background-attachment: fixed;
     background-position: center;
 }
