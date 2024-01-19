@@ -1,6 +1,7 @@
 .about {
     /* background: linear-gradient(0deg, rgba(39, 57, 94, 1) 30%, rgba(31, 41, 61, 1) 70%, rgba(13, 27, 42, 1) 100%); */
-    background: linear-gradient(0deg, rgb(27, 26, 26) 50%, rgb(49, 49, 50) 100%);
+    /* background: linear-gradient(0deg, rgb(27, 26, 26) 50%, rgb(49, 49, 50) 100%); */
+    background-color: hsl(0deg 3.2% 6.79% / 94%);
     opacity: 0.96;
     background-size: cover;
     background-repeat: no-repeat;
