@@ -4,25 +4,11 @@
   /* Style the menu list */
   .menu {
     list-style-type:none;
+    width: 100%;
     margin: 0;
     padding: 0;
     display: flex; /* Display items horizontally */
-    justify-content: center; /* Center items horizontally */
-  }
-  
-/* Style the menu container */
-.menu-container {
-    background-color: #3131318f;
-    height: 40px;
-    position: fixed; /* Set the menu container to be sticky */
-    top: 0; /* Stick to the top of the viewport */
-    z-index: 1000; /* Add a z-index for layering */
-    width: 100%; /* Make it full-width */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  }
-  
-  /* Style the menu list */
-  .menu {
+    justify-content: right; /* Center items horizontally */
     list-style-type: none;
     height: 40px;
     margin: 0;
@@ -31,12 +17,127 @@
     /* justify-content: right; Center items horizontally */
     align-items: center;
   }
+
+  .logo {
+    
+    list-style-type:none;
+    width: 220px;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    display: flex; /* Display items horizontally */
+    justify-content: left; /* Center items horizontally */
+    align-items: center;
+  }
+
+  @media (max-width: 600px) {
+    .logo {
+      max-width: 150px;
+      margin-left: 3px;/* Hide the image on small devices */
+    }
+  }
+  
+  .symbol{
+    display: inline-block; 
+    max-width: 40px; /* Ensures the image does not exceed the width of its container */
+    height: 40px; /* Maintains the aspect ratio of the image */
+    overflow: hidden;
+  }
+  .symbol img {
+    display: block; /* Removes extra space below the image due to its inline nature */
+    width: 100%; /* Makes sure the image takes the full width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    transition: transform 0.3s; /* Smooth transition for the rotation effect */
+
+    /* Initial state (not hovered) */
+    /* transform: rotate(0deg); */
+  }
+
+  .symbol img:hover {
+    /* Apply a continuous rotation animation when hovered */
+    animation: rotateImage 1s ease-in-out  ;
+    
+  }
+  
+  @keyframes rotateImage {
+    /* Define a rotation animation from 0 to 360 degrees */
+    from{
+      transform: rotate(0deg);
+    }
+    to
+    {
+      transform: rotate(720deg);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .symbol img {
+      
+      max-width: 33px;
+      height: 30px;
+    }
+  }
+
+  .my_name{
+    width: 130px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #dbe0ea; /* Text color */
+    font-family:sans-serif ;
+    height: auto;
+    transition: color 0.3s; /* Smooth color transition on hover */
+    padding: 12px 10px;
+    padding-top: 16px;
+    margin: 0px 5px;
+  }
+
+  @media (max-width: 600px) {
+    .my_name {
+      font-size: 14px;
+      max-width: 120px;
+      margin-left: 0px;/* Hide the image on small devices */
+      padding: 10px 2px;
+      padding-top: 8px;
+    }
+  }
+
+  .my_name:hover{
+    color: #aa6c41;
+  }
+
+
+  
+/* Style the menu container */
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #222223ee;
+    height: 40px;
+    position: fixed; /* Set the menu container to be sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Add a z-index for layering */
+    width: 100%; /* Make it full-width */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
   
   /* Style each menu item */
   .menu li {
     margin: 0px 10px; /* Add some spacing between items */
     position: relative; /* Create a stacking context for hover effects */
     
+  }
+  @media (max-width: 600px) {
+    .menu li {
+      margin: 0px 2px; /* Add some spacing between items */
+      position: relative; /* Create a stacking context for hover effects */
+      
+    }
+  }
+  
+  .menu .my_logo{
+      left: 10px;
   }
   
   /* Style menu links */
@@ -49,14 +150,23 @@
     padding: 11px 10px;
     margin: 0px 5px;
   }
+
+  @media (max-width: 600px) {
+    .menu li a{
+      font-size: 12px;
+      padding: 0px 2px;
+      margin: 0;
+      
+    }
+  }
   
   /* Change link color on hover */
-  .menu li a:hover {
+  .menu li .link:hover {
     color: #fefdfd; /* Change to a different color on hover */
   }
   
   /* Add an underline effect on hover */
-  .menu li a::before {
+  .menu li .link::before {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -69,7 +179,7 @@
     transition: transform 0.5s ease-in-out;
   }
   
-  .menu li a:hover::before {
+  .menu li .link:hover::before {
     transform: scaleX(1); /* Expand the underline on hover */
   }
 
@@ -78,7 +188,7 @@
 
   }
 
-  .menu li a{
+  .menu li .link{
 
         background:
         conic-gradient(from -45deg at 50% calc(5*100%/6),#ffffff00 90deg, #464646  0) calc(0*100%/3) var(--_d, 100%),
@@ -96,13 +206,13 @@
           transition: 1.5s linear;
         }
 
-  .menu li a:hover {
+  .menu li .link:hover {
 
     --_d: 0%;
 
     }
 
-  .menu li a:focus-visible {
+  .menu li .link:focus-visible {
 
     --_d: 0%;
 

@@ -2,7 +2,8 @@
 /* contact.css */
 
 .contactContainer {
-    background: linear-gradient(0deg, rgb(36, 56, 92) 50%, rgb(13, 27, 42) 100%);
+    background: linear-gradient(0deg, rgb(27, 26, 26) 50%, rgb(49, 49, 50) 100%);
+    opacity: 0.96;
     height: 100vh;
     overflow-x: hidden; /* Prevent horizontal overflow */
     overflow-y: auto;
@@ -13,7 +14,7 @@
     display: grid;
     justify-content: center;
     gap: 2rem;
-    color: #fff;
+    color: #dbdbd6;
     padding: 0 20px;
     padding-top: 50px;
     
@@ -32,7 +33,7 @@
 
 .getintouch{
     font-size:25px;
-    color: #fff;
+    color: #dbdbd6;
 }
 
 .ContactText p {

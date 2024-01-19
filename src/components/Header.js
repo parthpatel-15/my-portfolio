@@ -23,7 +23,15 @@ function Header() {
             <nav>
                 
                 <div className="menu-container">
-                    
+                    <div className='logo'>
+                        <a className='symbol' href="/"  onClick={() => handleMenuItemClick('Home')}>
+                                    <img src="https://raw.githubusercontent.com/parthpatel-15/data/a5e42967633a51aef473a0f1f5ff9501b579bb7f/logo.png" alt='Logo' />
+                                    </a>
+                        <a className='my_name' href="/"  onClick={() => handleMenuItemClick('Home')}>
+                                    PARTH PATEL
+                                    </a>
+
+                    </div>
                     <ul className="menu" >
 
                         {/* <li className={activeItem === 'Home' ? 'active myLogo' : ''}>
@@ -33,25 +41,22 @@ function Header() {
 
                             <p>Parth Patel </p>
                         </li> */}
-                        <li className="my_logo">
-                            Parth Patel
-                        </li>
-
+                        
                         <li className={activeItem === 'Home' ? 'active' : ''}>
-                            <a href="/"  onClick={() => handleMenuItemClick('Home')}>
+                            <a className='link'   href="/"  onClick={() => handleMenuItemClick('Home')}>
                                 Home
                             </a>
                         </li>
 
                         <li className={activeItem === 'About' ? 'active' : ''}>
-                            <a href="/about" onClick={() => handleMenuItemClick('About')}>
+                            <a  className='link' href="/about" onClick={() => handleMenuItemClick('About')}>
                                 About   
                             </a>
                         </li>
 
                         {/* <li><a href="/about">About</a></li> */}
                         <li className={activeItem === 'Skills' ? 'active' : ''}>
-                            <a href="/Skills" onClick={() => handleMenuItemClick('Skills')}>
+                            <a   className='link' href="/Skills" onClick={() => handleMenuItemClick('Skills')}>
                             Skills
                             </a>
                         </li>
@@ -59,7 +64,7 @@ function Header() {
                         {/* <li><a href="/Education">Education</a></li> */}
 
                         <li className={activeItem === 'Projects' ? 'active' : ''}>
-                            <a href="/Projects" onClick={() => handleMenuItemClick('Projects')}>
+                            <a className='link' href="/Projects" onClick={() => handleMenuItemClick('Projects')}>
                             Projects
                             </a>
                         </li>
@@ -67,7 +72,7 @@ function Header() {
 
                         {/* <li><a href="/Work-Experience">Work Experience</a></li> */}
 
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a className='link' href="/contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>

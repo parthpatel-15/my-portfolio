@@ -60,7 +60,7 @@ function Contact() {
              >
                 <img
                     className="githubIcon"
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    src="https://static-00.iconduck.com/assets.00/github-icon-2048x1988-jzvzcf2t.png"
                     alt=""
                     width={60}
                 />

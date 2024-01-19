@@ -28,10 +28,12 @@ h2:hover {
     flex-direction: column;
     align-items: center; /* Center children horizontally */
     justify-content: center; 
-    opacity: 0.96;
+    
     /* position: flex; */
     min-height: 100vh;
-    background: linear-gradient(0deg, rgba(39, 57, 94, 1) 30%, rgba(31, 41, 61, 1) 70%, rgba(13, 27, 42, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(39, 57, 94, 1) 30%, rgba(31, 41, 61, 1) 70%, rgba(13, 27, 42, 1) 100%); */
+    background: linear-gradient(0deg, rgb(28 29 31) 50%, rgb(58 60 66) 100%);
+    opacity: 0.96;
 }
 
 .ProjectsWrapper {
@@ -98,6 +100,9 @@ h2{
         width: 40px;
 
     }
+    .projectHeading{
+        padding: 0;
+    }
 }
 
 
@@ -105,7 +110,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #000000;
+    color: #ece8e8;
     font-size: small;
     margin-bottom: 2%;
     margin-right: 2%;
