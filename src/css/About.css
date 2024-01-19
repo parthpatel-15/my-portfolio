@@ -28,13 +28,17 @@
 
 }
 
+strong{
+    text-decoration: underline;
+}
+
 #AboutP{
     color: #BAB3B6;
     font-family : Lato, sans-serif;
-    font-style: italic;
+    /* font-style: italic; */
     opacity: 1;
-    line-height: 30px;
+    line-height: 35px;
     /* Bradley Hand, cursive */
-    font-size: 1.4vw; /* Adjust the font size using viewport width units */
+    font-size: 1.5vw; /* Adjust the font size using viewport width units */
     margin: 2vh 10vw; 
   }
