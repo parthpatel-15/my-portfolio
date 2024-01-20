@@ -1,21 +1,21 @@
 // Header.js
-import React, { useState } from 'react';
+import React from 'react';
 
 function Header() {
 
-    const [activeItem, setActiveItem] = useState('Home');
+    // const [activeItem, setActiveItem] = useState('Home');
 
-    const handleMenuItemClick = (item) => {
-        setActiveItem(item);
-        scrollToSection(item.toLowerCase());
-    };
+    // const handleMenuItemClick = (item) => {
+    //     setActiveItem(item);
+    //     scrollToSection(item.toLowerCase());
+    // };
 
-    const scrollToSection = (sectionId) => {
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+    // const scrollToSection = (sectionId) => {
+    //     const section = document.getElementById(sectionId);
+    //     if (section) {
+    //         section.scrollIntoView({ behavior: 'smooth' });
+    //     }
+    // };
 
 
     return (
@@ -24,10 +24,10 @@ function Header() {
                 
                 <div className="menu-container">
                     <div className='logo'>
-                        <a className='symbol' href="/"  onClick={() => handleMenuItemClick('Home')}>
+                        <a className='symbol' href="/"  >
                                     <img src="https://raw.githubusercontent.com/parthpatel-15/data/a5e42967633a51aef473a0f1f5ff9501b579bb7f/logo.png" alt='Logo' />
                                     </a>
-                        <a className='my_name' href="/"  onClick={() => handleMenuItemClick('Home')}>
+                        <a className='my_name' href="/" >
                                     PARTH PATEL
                                     </a>
 
@@ -42,31 +42,19 @@ function Header() {
                             <p>Parth Patel </p>
                         </li> */}
                         
-                        <li className={activeItem === 'Home' ? 'active' : ''}>
-                            <a className='link'   href="/"  onClick={() => handleMenuItemClick('Home')}>
-                                Home
-                            </a>
+                        <li > <a className='link'   href="/" > Home </a>
                         </li>
 
-                        <li className={activeItem === 'About' ? 'active' : ''}>
-                            <a  className='link' href="/about" onClick={() => handleMenuItemClick('About')}>
-                                About   
-                            </a>
+                        <li > <a  className='link' href="/about" >About </a>
                         </li>
 
                         {/* <li><a href="/about">About</a></li> */}
-                        <li className={activeItem === 'Skills' ? 'active' : ''}>
-                            <a   className='link' href="/Skills" onClick={() => handleMenuItemClick('Skills')}>
-                            Skills
-                            </a>
+                        <li ><a   className='link' href="/Skills" >Skills</a>
                         </li>
 
                         {/* <li><a href="/Education">Education</a></li> */}
 
-                        <li className={activeItem === 'Projects' ? 'active' : ''}>
-                            <a className='link' href="/Projects" onClick={() => handleMenuItemClick('Projects')}>
-                            Projects
-                            </a>
+                        <li> <a className='link' href="/Projects" >Projects </a>
                         </li>
                         {/* <li><a href="/Projects">Projects</a></li> */}
 

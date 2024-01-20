@@ -6,7 +6,7 @@ import Home from './components/Home';
 import About from './components/About'; 
 import Contact from './components/Contact';
 import Skills from './components/Skills';
-import WorkExperience from './components/WorkExperience';
+// import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/skills" element={<Skills />} />
-                    <Route path="/work-experience" element={<WorkExperience />} />
+                    {/* <Route path="/work-experience" element={<WorkExperience />} /> */}
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/contact" element={<Contact />} />
                 </Routes>
