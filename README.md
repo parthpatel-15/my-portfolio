@@ -1,70 +1,25 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# My Portfolio
 
-In the project directory, you can run:
+Welcome to my portfolio! This project showcases my skills, projects, and experience in the field of web development. Whether you're here to learn more about my work, explore the projects I've undertaken, or connect with me for potential collaborations, you've come to the right place.
 
-### `npm start`
+**Features:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Project Carousel:** View a collection of my featured projects displayed in an interactive carousel.
+**Project Modal:** Click on a project in the carousel to see detailed information in a modal, including project descriptions and images.
+**Responsive Design:** The portfolio is designed to provide an optimal viewing experience across various devices, ensuring accessibility and usability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Demo:**
 
-### `npm test`
+Check out live demo:  https://parth-patel-portfolio.netlify.app 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1403" alt="Screenshot 2024-01-22 at 1 57 52 PM" src="https://github.com/parthpatel-15/my-portfolio/assets/79576096/e5f247c3-3cd9-4cfc-8b4c-8be8b08a012c">
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Tech Stack:**
+- **React:** The project is built using the React library, providing a modular and efficient structure.
+- **Styled Components:** Styled Components is used for styling, offering a dynamic and maintainable styling solution.
+- **React Round Carousel:** The carousel feature is implemented using the React Round Carousel library, enhancing the user experience.
+- **Node.js:** The server-side of the portfolio is powered by Node.js, providing a scalable and efficient runtime environment.
+- **Express:** Express is used as the backend framework, enabling the creation of robust APIs and server-side logic.
+- **Netlify:** The project is deployed on Netlify, ensuring seamless hosting and continuous integration.
